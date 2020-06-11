@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
 }
 .container {
-  width: 70%;
+  width: 100%;
   max-width: 600px;
   padding: 1rem;
   background-color: rgb(195, 232, 255);
@@ -28,7 +28,7 @@ body {
   border-radius: 50%;
   background-image: url("https://picsum.photos/id/1005/300");
   background-size: cover;
-  margin: 2rem 0;
+  margin: 1rem 0 2rem;
 }
 #title {
   font-family: "Open Sans", sans-serif;
@@ -68,10 +68,11 @@ body {
   background-color: #bef3e0;
 }
 footer {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 0.9rem;
   padding: 1rem;
-  width: 400px;
+  width: 96%;
+  max-width: 400px;
   text-align: center;
   background-color: #222;
   color: #eee;
